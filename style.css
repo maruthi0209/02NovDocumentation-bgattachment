@@ -1,0 +1,51 @@
+.container1 {
+    width: 100vw;
+    height: 50vh;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/2017-04-02_Mitsubishi_Lancer_Evolution_X_MR_SST_14_%282%29.jpg/640px-2017-04-02_Mitsubishi_Lancer_Evolution_X_MR_SST_14_%282%29.jpg') , url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Subaru_Impreza_WRX_STI_-_Blue_%28cropped%29.jpg/640px-Subaru_Impreza_WRX_STI_-_Blue_%28cropped%29.jpg');
+    background-attachment: fixed;
+    /* background-repeat: none, none; */
+    overflow: scroll;
+}
+
+.container2 {
+    width: 100vw;
+    height: 50vh;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Subaru_Impreza_WRX_STI_-_Blue_%28cropped%29.jpg/1280px-Subaru_Impreza_WRX_STI_-_Blue_%28cropped%29.jpg');
+    background-attachment: local;
+    overflow: scroll;
+}
+
+/* body {
+    display: flex;
+    gap: 10px;
+} */
+
+h2 {
+    text-align: center;
+    color: white;
+}
+.container2>p {
+    /* overflow: scroll; */
+    color: white;
+}
+
+.container3{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/ee/Audi_Quattro_green.jpg');
+    background-attachment: scroll;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 50px;
+}
+.container3 div{
+    /* position: absolute;
+    left: 40%; */
+    width: 25%;
+    height: 25%;
+    background-color: lightblue;
+}
+
